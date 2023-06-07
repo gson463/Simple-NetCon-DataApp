@@ -1,0 +1,85 @@
+<!-- activity_data_collection_form1.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/roadEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Road"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/startEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Start"
+            android:layout_below="@id/roadEditText"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/endEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="End"
+            android:layout_below="@id/startEditText"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/linkEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Link"
+            android:layout_below="@id/endEditText"
+            android:layout_marginBottom="16dp" />
+
+        <Spinner
+            android:id="@+id/subLinkSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sub-Link"
+            android:layout_below="@id/linkEditText"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/regionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Region"
+            android:layout_below="@id/subLinkSpinner"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/shoulderTypeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Shoulder Type"
+            android:layout_below="@id/regionEditText"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_below="@id/shoulderTypeEditText"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_toRightOf="@id/saveButton"
+            android:layout_below="@id/shoulderTypeEditText"
+            android:layout_marginBottom="16dp" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">OurApp</string>
+        <!-- Table names -->
+        <string name="table_users">users</string>
+        <string name="table_form1_data">form1_data</string>
+        <string name="table_form2_data">form2_data</string>
+
+        <!-- Common column names -->
+        <string name="column_id">id</string>
+
+        <!-- Users table columns -->
+        <string name="column_username">username</string>
+        <string name="column_password">password</string>
+
+        <!-- Form1_data table columns -->
+        <string name="column_road">road</string>
+        <string name="column_start">start</string>
+        <string name="column_end">end</string>
+        <string name="column_link">link</string>
+        <string name="column_sublink">sublink</string>
+        <string name="column_region">region</string>
+        <string name="column_shouldertype">shoulderType</string>
+
+        <!-- Form2_data table columns -->
+        <string name="column_surveyref">surveyRef</string>
+        <string name="column_surfacetype">surfaceType</string>
+        <string name="column_carriagewayshape">carriagewayShape</string>
+        <string name="column_carriagewaysurface">carriagewaySurface</string>
+        <string name="column_overallcondition">overallCondition</string>
+        <string name="column_spotimprovement">spotImprovement</string>
+        <string name="column_leftdrainage">leftDrainage</string>
+        <string name="column_leftspecialdrainage">leftSpecialDrainage</string>
+        <string name="column_leftslopes">leftSlopes</string>
+        <string name="column_rightdrainage">rightDrainage</string>
+        <string name="column_rightspecialdrainage">rightSpecialDrainage</string>
+        <string name="column_rightslopes">rightSlopes</string>
+        <string name="column_urgent">urgent</string>
+        <string name="column_gravelthickness">gravelThickness</string>
+        <string name="column_culvertsrepair">culvertsRepair</string>
+        <string name="column_culvertsnew">culvertsNew</string>
+        <string name="column_bridgesrepair">bridgesRepair</string>
+        <string name="column_bridgesnew">bridgesNew</string>
+        <string name="column_riverprotection">riverProtection</string>
+        <string name="column_notes">notes</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="survey_ref">Survey Ref</string>
+    <string name="surface_type">Surface Type</string>
+    <string name="overall_condition">Overall Condition</string>
+    <string name="spot_improvement">Spot Improvement</string>
+    <string name="left_drainage">Left Drainage</string>
+    <string name="left_special_drainage">Left Special Drainage</string>
+    <string name="left_slopes">Left Slopes</string>
+    <string name="gravel_thickness">Gravel Thickness</string>
+    <string name="right_slopes">Right Slopes</string>
+    <string name="urgent">Urgent</string>
+    <string name="culverts_repair">Culverts - Repair</string>
+    <string name="culverts_new">Culverts - New</string>
+    <string name="bridges_repair">Bridges - Repair</string>
+    <string name="bridges_new">Bridges - New</string>
+    <string name="river_protection">River Protection</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="notes">Notes</string>
+    <string name="right_drainage">Right Drainage</string>
+    <string name="right_special_drainage">Right Special Drainage</string>
+    <string name="carriageway_surface">Carriageway Surface</string>
+    <string name="not_registered_sign_up_here">Not registered? Sign up here</string>
+    <string name="carriageway_shape">Carriageway Shape</string>
+</resources>

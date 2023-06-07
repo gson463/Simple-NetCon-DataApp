@@ -1,0 +1,251 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/surveyRefEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints=""
+                android:hint="@string/survey_ref"
+                android:textColorHint="#8D6E63"
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/surfaceTypeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/surveyRefEditText"
+                android:layout_marginBottom="16dp"
+                android:autofillHints=""
+                android:hint="@string/surface_type"
+                android:textColorHint="#8D6E63"
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/carriagewayShapeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/surfaceTypeEditText"
+                android:layout_marginBottom="16dp"
+                android:autofillHints=""
+                android:hint="@string/carriageway_shape"
+                android:textColorHint="#8D6E63"
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/carriagewaySurfaceEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carriagewayShapeEditText"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/carriageway_surface"
+                android:textColorHint="#8D6E63"
+                android:autofillHints=""
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/overallConditionEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carriagewaySurfaceEditText"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/overall_condition"
+                android:textColorHint="#8D6E63"
+                android:autofillHints=""
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/spotImprovementEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/overallConditionEditText"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/spot_improvement"
+                android:textColorHint="#8D6E63"
+                tools:ignore="TextFields,VisualLintTextFieldSize"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/leftDrainageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spotImprovementEditText"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/left_drainage"
+                android:textColorHint="#8D6E63"
+                android:autofillHints=""
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/leftSpecialDrainageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/leftDrainageEditText"
+                android:layout_marginBottom="16dp"
+                android:autofillHints=""
+                android:hint="@string/left_special_drainage"
+                android:textColorHint="#8D6E63"
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/leftSlopesEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/leftSpecialDrainageEditText"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/left_slopes"
+                android:textColorHint="#8D6E63"
+                android:autofillHints=""
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/rightDrainageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/leftSlopesEditText"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/right_drainage"
+                android:textColorHint="#8D6E63"
+                tools:ignore="TextFields,VisualLintTextFieldSize"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/rightSpecialDrainageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rightDrainageEditText"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/right_special_drainage"
+                android:textColorHint="#8D6E63"
+                android:autofillHints=""
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/rightSlopesEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rightSpecialDrainageEditText"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/right_slopes"
+                android:textColorHint="#8D6E63"
+                android:autofillHints=""
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <CheckBox
+                android:id="@+id/urgentCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/urgent"
+                android:layout_below="@+id/rightSlopesEditText"
+                android:layout_marginBottom="16dp"/>
+
+            <Spinner
+                android:id="@+id/gravelThicknessSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gravel_thickness"
+                android:layout_below="@+id/urgentCheckBox"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/culvertsRepairEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gravelThicknessSpinner"
+                android:layout_marginBottom="16dp"
+                android:autofillHints=""
+                android:hint="@string/culverts_repair"
+                android:textColorHint="#8D6E63"
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/culvertsNewEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/culvertsRepairEditText"
+                android:layout_marginBottom="16dp"
+                android:autofillHints=""
+                android:hint="@string/culverts_new"
+                android:textColorHint="#8D6E63"
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/bridgesRepairEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/culvertsNewEditText"
+                android:layout_marginBottom="16dp"
+                android:autofillHints=""
+                android:hint="@string/bridges_repair"
+                android:textColorHint="#8D6E63"
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/bridgesNewEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bridgesRepairEditText"
+                android:layout_marginBottom="16dp"
+                android:autofillHints=""
+                android:hint="@string/bridges_new"
+                android:textColorHint="#8D6E63"
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/riverProtectionEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bridgesNewEditText"
+                android:layout_marginBottom="16dp"
+                android:autofillHints=""
+                android:hint="@string/river_protection"
+                android:textColorHint="#8D6E63"
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/notesEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/riverProtectionEditText"
+                android:layout_marginBottom="16dp"
+                android:autofillHints=""
+                android:hint="@string/notes"
+                android:textColorHint="#8D6E63"
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:layout_below="@+id/notesEditText"
+                android:layout_marginBottom="16dp"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:layout_below="@+id/saveButton"
+                android:layout_marginBottom="16dp"
+                tools:ignore="VisualLintButtonSize" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
